@@ -1,0 +1,8 @@
+Script started on 2025-02-20 22:33:58+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="160" LINES="11"]
+[0;32m@jaybhatia22-glitch [0m➜ [1;34m/workspaces/csci-330-homeworks-jaybhatia22-glitch/sbcl-1.4.3-x86-linux/HW3 [0;36m([1;31mmain[0;36m) [0m$ g++ main.cpp
+[0;32m@jaybhatia22-glitch [0m➜ [1;34m/workspaces/csci-330-homeworks-jaybhatia22-glitch/sbcl-1.4.3-x86-linux/HW3 [0;36m([1;31mmain[0;36m) [0m$ ./a.out
+Sorted array: 10 18 33 46 55 71 92 
+[0;32m@jaybhatia22-glitch [0m➜ [1;34m/workspaces/csci-330-homeworks-jaybhatia22-glitch/sbcl-1.4.3-x86-linux/HW3 [0;36m([1;31mmain[0;36m) [0m$ end[K[K[Kexit
+exit
+
+Script done on 2025-02-20 22:34:20+00:00 [COMMAND_EXIT_CODE="0"]

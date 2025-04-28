@@ -1,0 +1,15 @@
+(defun partition-pairs (lst)
+  (if (null lst) '()
+      (if (null (cdr lst))
+          (list (car lst))
+          (let ((pair (list (car lst) (cadr lst))))
+            (cons pair (partition-pairs (cddr lst)))))))
+
+(defun merge-pairs (pairs)
+  (if (null pairs) '()
+      (let ((first-pair (car pairs))
+            (second-pair (cadr pairs)))
+        (if second-pair
+            (cons (merge first-pair second-pair)
+                  (merge-pairs (cddr pairs)))
+            (list first-pair)))))
